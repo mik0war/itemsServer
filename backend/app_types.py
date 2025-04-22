@@ -1,3 +1,5 @@
+#Серверные типы данных
+
 class Item:
     def __init__(self, id, name, item_count):
         self.id = id

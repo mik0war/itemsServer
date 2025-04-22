@@ -12,6 +12,7 @@ from PyQt6.QtWidgets import QWidget
 
 from frontend.list_item import Ui_Form
 
+#Класс для настройки главного экрана
 
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):

@@ -1,9 +1,13 @@
 from flask import Flask
 
+#Главный код серверного приложения
+
 import repository
 
 app = Flask(__name__)
 
+
+#Эндпоинт получения списка предметов
 
 @app.route('/get_items')
 def get_items():

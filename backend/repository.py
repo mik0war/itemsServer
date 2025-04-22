@@ -2,6 +2,8 @@ import psycopg2
 
 from app_types import Item, Characteristic
 
+#Методы для получения данных из базы
+
 
 def get_connection():
     connection = psycopg2.connect(host='localhost',

@@ -8,7 +8,7 @@
 
 from PyQt6 import QtCore, QtGui, QtWidgets
 
-
+#Класс для настройки элемента списка
 class Ui_Form(object):
     def setupUi(self, Form, item):
         Form.setObjectName("Form")

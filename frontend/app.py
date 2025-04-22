@@ -9,6 +9,8 @@ from frontend import controller
 from frontend.main_window import Ui_MainWindow
 
 
+#Основной метод приложения
+
 def make_application():
     app = QApplication(sys.argv)
 
